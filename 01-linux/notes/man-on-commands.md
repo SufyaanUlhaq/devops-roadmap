@@ -52,3 +52,10 @@ When creating a new note, you can use this structure:
 `rmdir -p cat/dog/monkey` - this example deletes all the directory structure
     argument within this command
 
+## What I Learned
+I learnt that there are more to than just running commands with a default
+option and argument. For example, using the mkdir to create directories 
+within a system, by default we are taught to use the mkdir command to create
+one directory e.g. `mkdir ./foo`. To create multiple directories in one command,
+the command would be: `mkdir -p ./foo/fie/fum`, which creates a hierarchical
+structure for parent and child directories.
