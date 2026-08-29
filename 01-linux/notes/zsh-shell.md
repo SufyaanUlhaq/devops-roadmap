@@ -40,6 +40,8 @@ When creating a new note, you can use this structure:
 `zsh` - run the zsh shell in the terminal
 `chsh -s /bin/zsh` - configure the zsh shell to be the main shell in the terminal
 `sudo !!` - to run sudo on the previous command ran in the terminal
+`sudo chsh -s $(which zsh) $(whoami)` - changes the shell configuration to zsh
+                                        for the current user
 
 ## What I Learned
 Shells have different configurations and modifications where some are easier to use
