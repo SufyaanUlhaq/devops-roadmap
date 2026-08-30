@@ -56,6 +56,9 @@ When creating a new note, you can use this structure:
 `whoami` - outputs the user of the operating system onto the terminal
 `ctrl L` - clears terminal screen
 `clear` - clears terminal screen
+`>` - redirect operator outputs from content e.g. a string into a file
+`>>` - append operator to add additional content to a file without removing
+        the current contents.
 
 ## Examples
 
