@@ -54,6 +54,8 @@ When creating a new note, you can use this structure:
 `tab` - not literally the word 'tab'. Tab key autofills the file/directory
 `cat` - can read files and create files but primarily use `touch` to create files
 `whoami` - outputs the user of the operating system onto the terminal
+`ctrl L` - clears terminal screen
+`clear` - clears terminal screen
 
 ## Examples
 
