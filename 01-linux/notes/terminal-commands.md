@@ -66,6 +66,7 @@ When creating a new note, you can use this structure:
 `touch` hello-world.txt
 `rm` hello-world.txt
 `cat` hello-world.txt 
+`whoami` - returns 'sufyaan'
 
 ## What I learned
 
