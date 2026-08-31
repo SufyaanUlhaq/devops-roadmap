@@ -59,6 +59,7 @@ When creating a new note, you can use this structure:
 `>` - redirect operator outputs from content e.g. a string into a file
 `>>` - append operator to add additional content to a file without removing
         the current contents.
+`echo` - prints contents
 
 ## Examples
 
@@ -72,6 +73,9 @@ When creating a new note, you can use this structure:
 `rm` hello-world.txt
 `cat` hello-world.txt 
 `whoami` - returns 'sufyaan'
+`cd /` - access the root directory
+`echo "Hello World" > world.txt` - inputs "Hello World" into a file
+`echo "Hello World2" >> world.txt` - appends "Hello World2" into that same file
 
 ## What I learned
 
