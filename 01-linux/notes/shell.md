@@ -43,7 +43,7 @@ When creating a new note, you can use this structure:
 
 ## Examples
 `ls -la` - listing all contents within the current directory
-`usr/local/bin` - bin means binary, the Path Environment variable tells the shell
+`/usr/local/bin` - bin means binary, the Path Environment variable tells the shell
                 where to look to retrieve the contents of the program in order
                 to run the command
 `zsh, fish, ksh, csh, bash`
