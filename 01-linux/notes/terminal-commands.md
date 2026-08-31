@@ -60,7 +60,13 @@ When creating a new note, you can use this structure:
 `>>` - append operator to add additional content to a file without removing
         the current contents.
 `echo` - prints contents
-
+`head` - prints the first 10 lines of content in a file
+`tail` - prints the last 10 lines of content in a file
+`head -n 5 file.txt` - prints the first 5 lines
+`tail -n 5 file.txt` - prints the last 5 lines
+`head -n 10 file.txt | tail -n 5 | less` - retrieves the first 10 lines in file.txt,
+        passes it as input to tail which retrieves the last 5 lines from that input,
+        passes it as input to less to display the contents within a page
 ## Examples
 
 `ls` ./foo/zoo
@@ -76,7 +82,10 @@ When creating a new note, you can use this structure:
 `cd /` - access the root directory
 `echo "Hello World" > world.txt` - inputs "Hello World" into a file
 `echo "Hello World2" >> world.txt` - appends "Hello World2" into that same file
-
+`echo "Hello World2" > world2.txt`, `cat world.txt world2.txt > combined.txt`
+                - this creates a combined.txt with concatenated contents from 
+                    both world.txt and world2.txt
+`cat world2.txt >> world.txt` - outputs "Hello World Hello World2" using the append `>>` operator
 ## What I learned
 
 I learnt that commands are instructions given to the terminal to output a result
