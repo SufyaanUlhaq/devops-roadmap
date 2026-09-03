@@ -35,7 +35,7 @@ When creating a new note, you can use this structure:
 ## Key Concepts
 - Sudo is 'Super User Do' which allows a permitted user to makes changes on files
 with root user access.
-- Creating a new user in the system
+- To create a new user in the system
 
 ## Commands
 `sudo`
@@ -54,7 +54,7 @@ with root user access.
 `sudo vim hello.md`
 `sudo su` - enters into the root with full access as a root user without the need of entering a password
 `sudo su rm -rf /` - removes the entire Linux, wiping the OS.
-`sudo user add newuser` - creates a new user `newuser`
+`sudo useradd newuser` - creates a new user `newuser`
 `sudo passwd newuser` - prompts user to create a password for `newuser`
 `su - newuser` - prompts user to enter the password to access the `newuser` user. The word `su` means 'substitute user'
 `sudo usermod -aG sudo newuser` - type this in the main user's terminal to grant sudo permissions to the `newuser` user
@@ -62,7 +62,7 @@ with root user access.
 `sudo groupadd animals` - creates a new group within `/etc/group`
 `sudo usermod -aG animals newuser` - adds `newuser` to the `/etc/group/animals` group
 `sudo gpasswd -d newuser animals` - removes `newuser` from the `animals` group
-`sudo groupdel animals` - removes the `animals` group from `/etc/group`
+`sudo groupdel animals` - deletes the `animals` group from `/etc/group`
 `groups` - checks which groups the user is in
 `sudo groupadd admin3 && groupadd admin4` - creates 2 groups simultaneously in `/etc/group`
 `sudo usermod -aG admin3 newuser` - adds `newuser` to `admin3` group
