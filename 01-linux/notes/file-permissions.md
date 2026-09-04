@@ -51,6 +51,9 @@ When creating a new note, you can use this structure:
 `chmod 751 hello.txt` - grants file permissions to hello.txt where User will have all rwx permissions, Group will have rx permissions, and others will have x permissions.
 `chmod +x hello.txt` - grants execute permissions to User/Group/Others for `hello.txt`
 `./set_permissions.sh` - runs a shell script to set permissions for a file. Ensure the file permissions for this are set to execute for the User.
+`chmod ug=rw,o=r hello.txt` - grants Users & Groups read-write and Others read permissions
+`sudo chown newuser example.txt` - changes the Owner of example.txt to `newuser`
+`sudo chgrp devops example.txt` - changes the Group of example.txt to `devops`
 
 ## What I Learned
 - A Linux system requires file permissions on directories and files to ensure Users, Groups and Others can access them appropriately. For example, giving full Read-Write-Execute access to a User.
