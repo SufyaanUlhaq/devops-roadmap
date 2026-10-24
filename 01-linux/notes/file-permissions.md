@@ -37,7 +37,7 @@ When creating a new note, you can use this structure:
 - File permissions are crucial when configuring root files
 - the Binary/Octal/String representation of file permissions are based on:
     - Directory|File|Link/User/Group/Others
-    - the Str representation for a directory that's public to anyone would be `rwxrwxrwx`
+    - the Str representation for a directory that's public to anyone would be `drwxrwxrwx`
     - `rwx` = read-write-execute
     - the Octal representation would be `777`.
     - r = 4, w = 2, x = 1. (4 + 2 + 1 = 7)
